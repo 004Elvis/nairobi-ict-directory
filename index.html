@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nairobi ICT Attachment & Internship Directory</title>
+<meta name="description" content="A directory of companies across Nairobi that take diploma and degree ICT students for industrial attachment or internship — filterable by area, stipend and diploma eligibility, with every link checked automatically.">
+
+<meta property="og:title" content="Nairobi ICT Attachment & Internship Directory">
+<meta property="og:description" content="Find companies across Nairobi that take ICT attachment and internship students — checked automatically so listings don't go stale.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#362151">
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- icon sprite, referenced via <use> -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></symbol>
+  <symbol id="icon-arrow" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></symbol>
+  <symbol id="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></symbol>
+  <symbol id="icon-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></symbol>
+  <symbol id="icon-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></symbol>
+</svg>
+
+<a class="skip-link" href="#directory">Skip to directory</a>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="brand" href="#top">
+      <svg class="brand__mark" viewBox="0 0 26 26" aria-hidden="true">
+        <g fill="currentColor">
+          <path d="M13 13 C10 10, 10 4, 13 2 C16 4, 16 10, 13 13 Z"></path>
+          <path d="M13 13 C10 10, 10 4, 13 2 C16 4, 16 10, 13 13 Z" transform="rotate(90 13 13)"></path>
+          <path d="M13 13 C10 10, 10 4, 13 2 C16 4, 16 10, 13 13 Z" transform="rotate(180 13 13)"></path>
+          <path d="M13 13 C10 10, 10 4, 13 2 C16 4, 16 10, 13 13 Z" transform="rotate(270 13 13)"></path>
+          <circle cx="13" cy="13" r="2"></circle>
+        </g>
+      </svg>
+      <span>Nairobi ICT Directory</span>
+    </a>
+    <nav class="topnav" aria-label="Section navigation">
+      <a href="#directory">Directory</a>
+      <a href="#guide">Application Guide</a>
+      <a href="#platforms">More Resources</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="intro">
+    <div class="wrap">
+      <p class="eyebrow">Nairobi &amp; environs · diploma and degree ICT students</p>
+      <h1>Find your ICT attachment in Nairobi.</h1>
+      <p class="intro__lede">
+        <strong id="statTotal">53</strong> companies that take attachment and internship students in Computer Science, IT and Software Engineering filter by area, stipend and diploma eligibility below. A script rechecks every link on a schedule, so you're not the one who finds out it's dead.
+      </p>
+      <details class="freshness-note">
+        <summary>
+          <span class="freshness-dot" id="aggDot" data-status="unchecked"></span>
+          <span id="freshnessSummary">Link health checked automatically — first run pending</span>
+        </summary>
+        <p>A Python script (in <code>/scraper</code>) periodically opens each company's apply link, confirms it still loads, and scans the page for attachment or internship mentions. Results update the little dot on every card below, green means recently confirmed, amber means it's due a recheck, and clay means the company's own server returned a real error. Grey covers two honest "Not sure" cases: not checked yet, or checked but blocked by the company's own firewall before it could tell either way, that happens more than you'd think, and it's not evidence the link is actually broken. It's a second opinion, not a guarantee, always do a final check on the company's own page before you apply.</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="directory-scope">
+  <section class="toolbar-section" id="directory" aria-label="Search and filter the directory">
+    <div class="wrap">
+      <div class="toolbar">
+        <div class="field field--search">
+          <svg class="icon"><use href="#icon-search"></use></svg>
+          <input type="search" id="searchInput" placeholder="Search company, area, or role" aria-label="Search companies">
+        </div>
+        <select id="areaFilter" aria-label="Filter by area">
+          <option value="">All areas</option>
+          <option value="westlands">Westlands</option>
+          <option value="cbd">CBD</option>
+          <option value="upper hill">Upper Hill</option>
+          <option value="parklands">Parklands</option>
+          <option value="kilimani">Kilimani</option>
+          <option value="karen">Karen</option>
+          <option value="industrial area">Industrial Area</option>
+          <option value="thika road">Thika Road</option>
+          <option value="mombasa road">Mombasa Road</option>
+          <option value="ngong road">Ngong Road</option>
+          <option value="syokimau">Syokimau</option>
+          <option value="south b">South B / C</option>
+        </select>
+        <select id="sortSelect" aria-label="Sort results">
+          <option value="name">Sort: Name A–Z</option>
+          <option value="category">Sort: Category</option>
+          <option value="freshness">Sort: Recently checked</option>
+        </select>
+      </div>
+
+      <div class="chiprow" id="categoryChips" role="group" aria-label="Filter by category">
+        <button class="chip is-active" data-cat="" type="button">All</button>
+        <button class="chip" data-cat="tech" type="button"><span class="chip__dot" style="background:var(--jacaranda)"></span>Tech &amp; Software<span class="chip-count" data-count-for="tech"></span></button>
+        <button class="chip" data-cat="govt" type="button"><span class="chip__dot" style="background:var(--amber-deep)"></span>Government<span class="chip-count" data-count-for="govt"></span></button>
+        <button class="chip" data-cat="bank" type="button"><span class="chip__dot" style="background:var(--wine)"></span>Bank &amp; Finance<span class="chip-count" data-count-for="bank"></span></button>
+        <button class="chip" data-cat="ngo" type="button"><span class="chip__dot" style="background:var(--forest)"></span>NGO / UN<span class="chip-count" data-count-for="ngo"></span></button>
+        <button class="chip" data-cat="energy" type="button"><span class="chip__dot" style="background:var(--forest)"></span>Energy &amp; Utility<span class="chip-count" data-count-for="energy"></span></button>
+        <button class="chip" data-cat="hub" type="button"><span class="chip__dot" style="background:#46367A"></span>Tech Hub<span class="chip-count" data-count-for="hub"></span></button>
+        <button class="chip" data-cat="startup" type="button"><span class="chip__dot" style="background:var(--clay)"></span>Startup<span class="chip-count" data-count-for="startup"></span></button>
+        <button class="chip" data-cat="telecom" type="button"><span class="chip__dot" style="background:var(--teal)"></span>Telecom<span class="chip-count" data-count-for="telecom"></span></button>
+        <button class="chip" data-cat="isp" type="button"><span class="chip__dot" style="background:var(--teal)"></span>ISP &amp; Networking<span class="chip-count" data-count-for="isp"></span></button>
+        <button class="chip" data-cat="consulting" type="button"><span class="chip__dot" style="background:var(--amber-deep)"></span>Consulting<span class="chip-count" data-count-for="consulting"></span></button>
+      </div>
+
+      <div class="togglerow">
+        <button class="toggle" id="toggleDiploma" type="button" aria-pressed="false">
+          <svg class="icon"><use href="#icon-check"></use></svg>Diploma-friendly
+        </button>
+        <button class="toggle" id="togglePaid" type="button" aria-pressed="false">
+          <svg class="icon"><use href="#icon-check"></use></svg>Paid stipend
+        </button>
+        <button class="clear-btn" id="clearFilters" type="button" hidden>Clear filters</button>
+      </div>
+
+      <p class="result-count" id="resultCount" aria-live="polite">Loading directory…</p>
+    </div>
+  </section>
+
+  <section class="grid-section">
+    <div class="wrap">
+      <div class="card-grid" id="cardGrid" aria-live="polite">
+        <!-- populated by assets/app.js; skeletons shown while loading -->
+      </div>
+      <div class="empty-state" id="emptyState" hidden>
+        <h3>No companies match those filters</h3>
+        <p>Try a broader search term, or clear a filter to widen the results.</p>
+        <button id="emptyClearBtn" type="button">Clear all filters</button>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <section class="guide" id="guide">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-kicker">Application Guide</span>
+        <h2>How to apply successfully</h2>
+      </div>
+
+      <ol class="tip-list">
+        <li class="tip"><span class="tip__num">1</span><h4>Apply early: At least 2–3 months out</h4><p>Most Nairobi companies fill attachment slots two to three months before an intake starts. If a company has rolling openings, don't wait for "the right time", <strong>Apply Now.</strong></p></li>
+        <li class="tip"><span class="tip__num">2</span><h4>Prepare five documents in advance</h4><p>Introduction letter from your institution, an updated CV, a cover letter, a copy of your National ID, and your transcripts. Keep them as PDFs, ready to send instantly.</p></li>
+        <li class="tip"><span class="tip__num">3</span><h4>Tailor every cover letter</h4><p>Name the company, reference a specific product or project of theirs, and explain how your skills fit. Generic letters get dismissed before anyone reads the second line.</p></li>
+        <li class="tip"><span class="tip__num">4</span><h4>Use more than one channel</h4><p>Don't rely on a single job board. Email HR directly, check LinkedIn, revisit careers pages weekly, and call to confirm your application was received.</p></li>
+        <li class="tip"><span class="tip__num">5</span><h4>Build a small portfolio</h4><p>A GitHub profile with two or three small projects, a website, a script or a database sets you apart. Link it in your CV. GitHub Pages and Netlify both host it for free.</p></li>
+        <li class="tip"><span class="tip__num">6</span><h4>Target diploma-friendly institutions first</h4><p>Government agencies, county offices, and NGOs are consistently the most diploma-friendly. SACCOs and hospital ICT departments are reliable too.</p></li>
+      </ol>
+
+      <div class="section-head section-head--sub"><h3>What you'll need</h3></div>
+      <ul class="req-list">
+        <li><svg><use href="#icon-check"></use></svg><span><b>Introduction letter</b> — from your institution on official letterhead, signed by HOD or Dean</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Updated CV</b> — one to two pages, highlighting ICT skills, projects and academic performance</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Cover letter</b> — specific to the company and role</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Academic transcripts</b> — current results or marksheets</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Copy of National ID</b> — or Student ID</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Passport photo</b> — for government institutions</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Insurance / consent form</b> — some institutions, especially hospitals, require this</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Full-time availability</b> — for the entire attachment period, typically three months</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Police clearance certificate</b> — required by some government bodies and banks</span></li>
+        <li><svg><use href="#icon-check"></use></svg><span><b>Signed attachment agreement</b> — from your institution's industrial attachment coordinator</span></li>
+      </ul>
+      <p class="note"><b>Pro tip: </b> Government institutions like KRA, Kenya Power and KenGen take applications strictly online; don't email or walk in. Smaller tech companies and startups are the opposite a walk-in with printed documents and a USB of your portfolio can work well.</p>
+
+      <div class="section-head section-head--sub"><h3>Companies known to accept walk-ins</h3></div>
+      <div class="walkin-row">
+        <span class="walkin"><b>Davis &amp; Shirtliff</b> — Industrial Area</span>
+        <span class="walkin"><b>Augusta Software House</b> — Upper Hill</span>
+        <span class="walkin"><b>Mfano Bora Africa</b> — Ole Sein Rd</span>
+        <span class="walkin"><b>Sybrin Kenya</b> — Westlands</span>
+        <span class="walkin"><b>iHub Nairobi</b> — Westlands</span>
+        <span class="walkin"><b>Nairobi Garage</b> — Kilimani</span>
+        <span class="walkin"><b>Moringa School</b> — Westlands</span>
+        <span class="walkin"><b>Craft Silicon</b> — Gitanga Rd</span>
+        <span class="walkin"><b>Local SACCOs</b> (ICT depts) — Westlands / CBD</span>
+        <span class="walkin"><b>County hospitals</b> (ICT depts) — various</span>
+        <span class="walkin"><b>Nairobi City County</b> — City Hall</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="platforms" id="platforms">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-kicker">More Resources</span>
+        <h2>Other places to search</h2>
+      </div>
+      <div class="platform-grid">
+        <a class="platform" href="https://intern.co.ke" target="_blank" rel="noopener"><div><div class="platform__name">InternLink Kenya</div><div class="platform__desc">intern.co.ke — Kenya-focused internship board</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://attachke.online" target="_blank" rel="noopener"><div><div class="platform__name">AttachKE</div><div class="platform__desc">attachke.online — dedicated attachment platform</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://www.myjobmag.co.ke" target="_blank" rel="noopener"><div><div class="platform__name">MyJobMag Kenya</div><div class="platform__desc">myjobmag.co.ke — daily updated ICT jobs &amp; attachments</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://www.corporatestaffing.co.ke" target="_blank" rel="noopener"><div><div class="platform__name">Corporate Staffing Kenya</div><div class="platform__desc">corporatestaffing.co.ke — verified ICT listings</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://tayaricareers.africa" target="_blank" rel="noopener"><div><div class="platform__name">Tayari Careers</div><div class="platform__desc">tayaricareers.africa — Kenya attachment specialist</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://campusbiz.co.ke" target="_blank" rel="noopener"><div><div class="platform__name">CampusBiz Kenya</div><div class="platform__desc">campusbiz.co.ke — student-focused listings</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://www.fuzu.com" target="_blank" rel="noopener"><div><div class="platform__name">Fuzu Kenya</div><div class="platform__desc">fuzu.com — tech &amp; corporate internship hub</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://ke.linkedin.com" target="_blank" rel="noopener"><div><div class="platform__name">LinkedIn Kenya</div><div class="platform__desc">ke.linkedin.com — active ICT internship listings</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://posttraining.go.ke" target="_blank" rel="noopener"><div><div class="platform__name">Kenya Skills Hub (Govt)</div><div class="platform__desc">posttraining.go.ke — official government platform</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+        <a class="platform" href="https://opportunitiesforyoungkenyans.co.ke" target="_blank" rel="noopener"><div><div class="platform__name">Opportunities for Young Kenyans</div><div class="platform__desc">opportunitiesforyoungkenyans.co.ke</div></div><svg class="icon"><use href="#icon-arrow"></use></svg></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefooter">
+  <div class="wrap">
+    <p id="footerUpdated"><strong>Directories are reviwed every Monday at 8:00 AM.</strong> Company listings were manually researched, then handed to the auto-checker above to keep them honest.</p>
+    <p>Deadlines and stipend details change often, always confirm directly on the company's own careers page before applying.</p>
+    <p>Nairobi ICT Attachment &amp; Internship Directory · maintained by <strong>Elvis Midega</strong></p>
+  </div>
+</footer>
+
+<!--Visitor count-->
+<script data-goatcounter="https://elvis-liam.goatcounter.com/count"async src="//gc.zgo.at/count.js"></script>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

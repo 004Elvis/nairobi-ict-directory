@@ -1,0 +1,51 @@
+name: Refresh directory data
+
+# Runs the link/freshness checker on a schedule and commits any changes.
+# Because the repo is connected to Netlify for continuous deployment, a
+# commit here triggers a fresh Netlify deploy automatically — that's what
+# makes the site "always up to date" without you touching anything.
+#
+# This runs WEEKLY on purpose, not daily. Netlify's free tier (for accounts
+# created from September 2025 onward) runs on a monthly credit budget where
+# each deploy costs credits — see README.md, "Why weekly and not daily?"
+# for the full explanation. Change the cron line below if you want a
+# different schedule; `workflow_dispatch` also lets you run it manually
+# any time from the Actions tab, with no schedule change needed.
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'   # every Monday, 05:00 UTC (~08:00 Nairobi time)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: directory-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run the checker
+        run: python3 scraper/scrape.py --verbose
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "directory-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/companies.json scraper/last_run_report.md
+          git diff --cached --quiet || git commit -m "Auto-update directory data [skip ci]"
+          git push

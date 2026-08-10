@@ -2,7 +2,7 @@
   "meta": {
     "title": "Nairobi ICT Attachment & Internship Directory",
     "last_manual_review": "May 2026",
-    "last_scraped": "2026-08-04T18:48:14Z",
+    "last_scraped": "2026-08-10T06:13:01Z",
     "total": 53
   },
   "companies": [
@@ -27,7 +27,7 @@
       "careers_url": "https://www.absa.co.ke/about-us/careers/",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:43:13Z"
+      "last_checked": "2026-08-10T06:08:25Z"
     },
     {
       "id": "africa-s-talking",
@@ -50,7 +50,7 @@
       "careers_url": "https://www.africastalking.com/careers",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:43:19Z"
+      "last_checked": "2026-08-10T06:08:28Z"
     },
     {
       "id": "airtel-kenya",
@@ -73,7 +73,7 @@
       "careers_url": "https://airtelkenya.com/career",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:43:22Z"
+      "last_checked": "2026-08-10T06:08:31Z"
     },
     {
       "id": "amref-international-university",
@@ -96,7 +96,7 @@
       "careers_url": "https://amref.org/careers",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:43:34Z"
+      "last_checked": "2026-08-10T06:08:38Z"
     },
     {
       "id": "andela-kenya",
@@ -119,7 +119,7 @@
       "careers_url": "https://www.andela.com",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:43:38Z"
+      "last_checked": "2026-08-10T06:08:39Z"
     },
     {
       "id": "augusta-software-house-ltd",
@@ -142,7 +142,7 @@
       "careers_url": "https://www.augusta.co.ke",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:43:41Z"
+      "last_checked": "2026-08-10T06:08:42Z"
     },
     {
       "id": "cellulant-kenya",
@@ -165,7 +165,7 @@
       "careers_url": "https://cellulant.io/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:43:45Z"
+      "last_checked": "2026-08-10T06:08:44Z"
     },
     {
       "id": "co-operative-bank-of-kenya",
@@ -188,7 +188,7 @@
       "careers_url": "https://co-opbank.co.ke/careers",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:43:53Z"
+      "last_checked": "2026-08-10T06:08:48Z"
     },
     {
       "id": "communications-authority-of-kenya",
@@ -211,7 +211,7 @@
       "careers_url": "https://www.ca.go.ke/careers",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:43:56Z"
+      "last_checked": "2026-08-10T06:08:50Z"
     },
     {
       "id": "craft-silicon",
@@ -234,7 +234,7 @@
       "careers_url": "https://craftsilicon.com/careers",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:44:08Z"
+      "last_checked": "2026-08-10T06:08:56Z"
     },
     {
       "id": "davis-shirtliff-ltd",
@@ -257,7 +257,7 @@
       "careers_url": "https://www.dayliff.com/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:44:14Z"
+      "last_checked": "2026-08-10T06:08:58Z"
     },
     {
       "id": "deloitte-east-africa",
@@ -280,7 +280,7 @@
       "careers_url": "https://www.deloitte.com/ke/en/careers",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:44:17Z"
+      "last_checked": "2026-08-10T06:09:00Z"
     },
     {
       "id": "dtb-diamond-trust-bank",
@@ -303,7 +303,7 @@
       "careers_url": "https://www.dtbgroup.com/careers",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:44:24Z"
+      "last_checked": "2026-08-10T06:09:05Z"
     },
     {
       "id": "equity-bank-kenya",
@@ -324,9 +324,9 @@
       "apply_url": "https://equitygroupholdings.com/careers",
       "careers_label": "equitygroupholdings.com",
       "careers_url": "https://equitygroupholdings.com/careers",
-      "link_status": "ok",
-      "keyword_hit": false,
-      "last_checked": "2026-08-04T18:44:26Z"
+      "link_status": "broken",
+      "keyword_hit": null,
+      "last_checked": "2026-08-10T06:09:08Z"
     },
     {
       "id": "family-bank-kenya",
@@ -349,7 +349,7 @@
       "careers_url": "https://www.familybank.co.ke/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:44:30Z"
+      "last_checked": "2026-08-10T06:09:10Z"
     },
     {
       "id": "huawei-technologies-kenya",
@@ -372,7 +372,7 @@
       "careers_url": "https://www.huawei.com/en/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:44:35Z"
+      "last_checked": "2026-08-10T06:09:13Z"
     },
     {
       "id": "icta-ict-authority-of-kenya",
@@ -395,7 +395,7 @@
       "careers_url": "https://icta.go.ke",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:44:37Z"
+      "last_checked": "2026-08-10T06:09:16Z"
     },
     {
       "id": "ihub-nairobi",
@@ -418,7 +418,7 @@
       "careers_url": "https://ihub.co.ke",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:44:42Z"
+      "last_checked": "2026-08-10T06:09:18Z"
     },
     {
       "id": "interswitch-east-africa",
@@ -441,7 +441,7 @@
       "careers_url": "https://interswitchgroup.com/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:44:48Z"
+      "last_checked": "2026-08-10T06:09:22Z"
     },
     {
       "id": "jumia-kenya",
@@ -464,7 +464,7 @@
       "careers_url": "https://group.jumia.com/careers",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:44:51Z"
+      "last_checked": "2026-08-10T06:09:24Z"
     },
     {
       "id": "kcb-bank-kenya",
@@ -487,7 +487,7 @@
       "careers_url": "https://ke.kcbgroup.com/about/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:44:54Z"
+      "last_checked": "2026-08-10T06:09:26Z"
     },
     {
       "id": "kengen",
@@ -510,7 +510,7 @@
       "careers_url": "https://careers.kengen.co.ke",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:44:57Z"
+      "last_checked": "2026-08-10T06:09:30Z"
     },
     {
       "id": "kenya-national-bureau-of-statistics-knbs",
@@ -533,7 +533,7 @@
       "careers_url": "https://www.knbs.or.ke",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:45:03Z"
+      "last_checked": "2026-08-10T06:09:35Z"
     },
     {
       "id": "kenya-pipeline-company-kpc",
@@ -556,7 +556,7 @@
       "careers_url": "https://www.kpc.co.ke/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:45:06Z"
+      "last_checked": "2026-08-10T06:09:38Z"
     },
     {
       "id": "kenya-ports-authority-kpa",
@@ -579,7 +579,7 @@
       "careers_url": "https://www.kpa.co.ke/careers",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:45:12Z"
+      "last_checked": "2026-08-10T06:09:44Z"
     },
     {
       "id": "kenya-power-kplc",
@@ -602,7 +602,7 @@
       "careers_url": "https://www.kplc.co.ke/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:45:14Z"
+      "last_checked": "2026-08-10T06:09:49Z"
     },
     {
       "id": "kenya-revenue-authority-kra",
@@ -625,7 +625,7 @@
       "careers_url": "https://kra.go.ke/careers",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:45:19Z"
+      "last_checked": "2026-08-10T06:09:55Z"
     },
     {
       "id": "konza-technopolis-development-authority",
@@ -648,7 +648,7 @@
       "careers_url": "https://konza.go.ke/careers",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:45:26Z"
+      "last_checked": "2026-08-10T06:10:04Z"
     },
     {
       "id": "kpmg-east-africa",
@@ -671,7 +671,7 @@
       "careers_url": "https://kpmg.com/ke/en/careers",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:45:30Z"
+      "last_checked": "2026-08-10T06:10:06Z"
     },
     {
       "id": "liquid-intelligent-technologies",
@@ -694,7 +694,7 @@
       "careers_url": "https://www.liquid.tech/careers",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:45:37Z"
+      "last_checked": "2026-08-10T06:10:12Z"
     },
     {
       "id": "m-pesa-africa-safaricom",
@@ -717,7 +717,7 @@
       "careers_url": "https://www.safaricom.co.ke/career",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:45:42Z"
+      "last_checked": "2026-08-10T06:10:15Z"
     },
     {
       "id": "mfano-bora-africa-ltd",
@@ -740,7 +740,7 @@
       "careers_url": "https://www.mfanoboraafrica.com/attachment",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:45:46Z"
+      "last_checked": "2026-08-10T06:10:18Z"
     },
     {
       "id": "microsoft-africa-development-centre",
@@ -763,7 +763,7 @@
       "careers_url": "https://careers.microsoft.com",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:45:52Z"
+      "last_checked": "2026-08-10T06:10:19Z"
     },
     {
       "id": "momentum-labs-africa",
@@ -786,7 +786,7 @@
       "careers_url": "https://momentumlabs.africa",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:45:56Z"
+      "last_checked": "2026-08-10T06:10:23Z"
     },
     {
       "id": "moringa-school",
@@ -809,7 +809,7 @@
       "careers_url": "https://moringaschool.com/careers",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:46:02Z"
+      "last_checked": "2026-08-10T06:10:26Z"
     },
     {
       "id": "nairobi-city-county-city-hall",
@@ -832,7 +832,7 @@
       "careers_url": "https://www.nairobi.go.ke",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:46:07Z"
+      "last_checked": "2026-08-10T06:11:16Z"
     },
     {
       "id": "nairobi-garage",
@@ -855,7 +855,7 @@
       "careers_url": "https://nairobigarage.com",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:46:16Z"
+      "last_checked": "2026-08-10T06:11:23Z"
     },
     {
       "id": "nhif-national-hospital-insurance-fund",
@@ -878,7 +878,7 @@
       "careers_url": "https://www.nhif.or.ke",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:46:20Z"
+      "last_checked": "2026-08-10T06:11:25Z"
     },
     {
       "id": "ntsa-national-transport-safety-authority",
@@ -901,7 +901,7 @@
       "careers_url": "https://www.ntsa.go.ke",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:46:25Z"
+      "last_checked": "2026-08-10T06:11:31Z"
     },
     {
       "id": "one-acre-fund-kenya",
@@ -924,7 +924,7 @@
       "careers_url": "https://oneacrefund.org/careers",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:46:29Z"
+      "last_checked": "2026-08-10T06:11:33Z"
     },
     {
       "id": "onfon-media",
@@ -947,7 +947,7 @@
       "careers_url": "https://www.onfonmedia.com",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:46:35Z"
+      "last_checked": "2026-08-10T06:11:35Z"
     },
     {
       "id": "ramco-group-kenya",
@@ -970,7 +970,7 @@
       "careers_url": "https://www.ramco.co.ke",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:46:39Z"
+      "last_checked": "2026-08-10T06:11:40Z"
     },
     {
       "id": "safaricom-plc",
@@ -993,7 +993,7 @@
       "careers_url": "https://www.safaricom.co.ke/career/internship-program",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:46:43Z"
+      "last_checked": "2026-08-10T06:11:42Z"
     },
     {
       "id": "save-the-children-kenya",
@@ -1016,7 +1016,7 @@
       "careers_url": "https://www.savethechildren.net/careers",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:46:47Z"
+      "last_checked": "2026-08-10T06:11:44Z"
     },
     {
       "id": "sendy-ltd",
@@ -1039,7 +1039,7 @@
       "careers_url": "https://www.sendyit.com/careers",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:46:50Z"
+      "last_checked": "2026-08-10T06:11:48Z"
     },
     {
       "id": "spans-ventures-ltd",
@@ -1062,7 +1062,7 @@
       "careers_url": "https://www.myjobmag.co.ke",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:46:55Z"
+      "last_checked": "2026-08-10T06:11:50Z"
     },
     {
       "id": "strathmore-university-ilabafrica",
@@ -1085,7 +1085,7 @@
       "careers_url": "https://www.ilabafrica.ac.ke",
       "link_status": "unverified",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:47:44Z"
+      "last_checked": "2026-08-10T06:12:40Z"
     },
     {
       "id": "sybrin-kenya",
@@ -1108,7 +1108,7 @@
       "careers_url": "https://www.sybrin.com/careers",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:47:51Z"
+      "last_checked": "2026-08-10T06:12:46Z"
     },
     {
       "id": "totalenergies-kenya",
@@ -1131,7 +1131,7 @@
       "careers_url": "https://totalenergies.com/careers",
       "link_status": "ok",
       "keyword_hit": true,
-      "last_checked": "2026-08-04T18:47:55Z"
+      "last_checked": "2026-08-10T06:12:47Z"
     },
     {
       "id": "un-habitat",
@@ -1154,7 +1154,7 @@
       "careers_url": "https://careers.un.org",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:48:01Z"
+      "last_checked": "2026-08-10T06:12:49Z"
     },
     {
       "id": "unicef-kenya",
@@ -1177,7 +1177,7 @@
       "careers_url": "https://www.unicef.org/careers/internships",
       "link_status": "broken",
       "keyword_hit": null,
-      "last_checked": "2026-08-04T18:48:05Z"
+      "last_checked": "2026-08-10T06:12:51Z"
     },
     {
       "id": "university-of-nairobi-ict-centre",
@@ -1200,7 +1200,7 @@
       "careers_url": "https://ict.uonbi.ac.ke",
       "link_status": "ok",
       "keyword_hit": false,
-      "last_checked": "2026-08-04T18:48:08Z"
+      "last_checked": "2026-08-10T06:12:55Z"
     },
     {
       "id": "zuku-wananchi-group",
@@ -1221,9 +1221,9 @@
       "apply_url": "mailto:hr@wananchi.com",
       "careers_label": "zuku.co.ke/careers",
       "careers_url": "https://www.zuku.co.ke/careers",
-      "link_status": "unverified",
-      "keyword_hit": null,
-      "last_checked": "2026-08-04T18:48:14Z"
+      "link_status": "ok",
+      "keyword_hit": false,
+      "last_checked": "2026-08-10T06:13:01Z"
     }
   ]
 }

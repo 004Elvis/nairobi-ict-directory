@@ -1,13 +1,13 @@
 # Directory check — run report
 
-Run at: 2026-08-10T06:21:41Z
+Run at: 2026-08-17T05:38:41Z
 
 - Checked: 53
-- Link OK: 30
+- Link OK: 28
 - Confirmed broken (server returned an error): 12
-- Unverified (network/SSL issue, not confident either way): 11
+- Unverified (network/SSL issue, not confident either way): 13
 - Skipped (robots.txt): 0
-- OK but no attachment/internship keyword found: 19
+- OK but no attachment/internship keyword found: 17
 
 ## Confirmed broken — the server itself returned an error
 
@@ -36,15 +36,17 @@ of these yourself before assuming anything is wrong.
 
 - **ABSA Bank Kenya** — SSLError: HTTPSConnectionPool(host='www.absa.co.ke', port=443): Max retries exceeded with url: /about-us/careers/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)'))) — https://www.absa.co.ke/about-us/careers/
 - **DTB – Diamond Trust Bank** — SSLError: HTTPSConnectionPool(host='www.dtbgroup.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)'))) — https://www.dtbgroup.com/careers
+- **ICTA – ICT Authority of Kenya** — ConnectTimeout: HTTPSConnectionPool(host='icta.go.ke', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='icta.go.ke', port=443) at 0x7f43f2c76360>, 'Connection to icta.go.ke timed out. (connect timeout=15)')) — https://icta.go.ke
 - **Kenya National Bureau of Statistics (KNBS)** — SSLError: HTTPSConnectionPool(host='www.knbs.or.ke', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))) — https://www.knbs.or.ke
 - **Kenya Ports Authority (KPA)** — SSLError: HTTPSConnectionPool(host='www.kpa.co.ke', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))) — https://www.kpa.co.ke/careers
 - **Kenya Revenue Authority (KRA)** — SSLError: HTTPSConnectionPool(host='kra.go.ke', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kra.go.ke'. (_ssl.c:1010)"))) — https://kra.go.ke/careers
 - **Momentum Labs Africa** — ConnectionError: HTTPSConnectionPool(host='momentumlabs.africa', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='momentumlabs.africa', port=443): Failed to resolve 'momentumlabs.africa' ([Errno -2] Name or service not known)")) — https://momentumlabs.africa
-- **Nairobi City County – City Hall** — SSLError: HTTPSConnectionPool(host='www.nairobi.go.ke', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))) — https://www.nairobi.go.ke
+- **Nairobi City County – City Hall** — ConnectTimeout: HTTPSConnectionPool(host='www.nairobi.go.ke', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nairobi.go.ke', port=443) at 0x7f43f2999c70>, 'Connection to www.nairobi.go.ke timed out. (connect timeout=15)')) — https://www.nairobi.go.ke
 - **NTSA – National Transport & Safety Authority** — SSLError: HTTPSConnectionPool(host='www.ntsa.go.ke', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))) — https://www.ntsa.go.ke
 - **Ramco Group Kenya** — ConnectionError: HTTPSConnectionPool(host='www.ramco.co.ke', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.ramco.co.ke', port=443): Failed to resolve 'www.ramco.co.ke' ([Errno -2] Name or service not known)")) — https://www.ramco.co.ke
 - **Sendy Ltd** — ConnectionError: HTTPSConnectionPool(host='www.sendyit.com', port=443): Max retries exceeded with url: /careers (Caused by NameResolutionError("HTTPSConnection(host='www.sendyit.com', port=443): Failed to resolve 'www.sendyit.com' ([Errno -5] No address associated with hostname)")) — https://www.sendyit.com/careers
-- **Strathmore University – @iLabAfrica** — ConnectTimeout: HTTPSConnectionPool(host='www.ilabafrica.ac.ke', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ilabafrica.ac.ke', port=443) at 0x7f4f5f4f8500>, 'Connection to www.ilabafrica.ac.ke timed out. (connect timeout=15)')) — https://www.ilabafrica.ac.ke
+- **Strathmore University – @iLabAfrica** — ConnectTimeout: HTTPSConnectionPool(host='www.ilabafrica.ac.ke', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ilabafrica.ac.ke', port=443) at 0x7f43f30e61b0>, 'Connection to www.ilabafrica.ac.ke timed out. (connect timeout=15)')) — https://www.ilabafrica.ac.ke
+- **University of Nairobi – ICT Centre** — ConnectTimeout: HTTPSConnectionPool(host='ict.uonbi.ac.ke', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ict.uonbi.ac.ke', port=443) at 0x7f43f2c4a9f0>, 'Connection to ict.uonbi.ac.ke timed out. (connect timeout=15)')) — https://ict.uonbi.ac.ke
 
 ## Loaded fine, but no internship/attachment keyword found
 
@@ -59,7 +61,6 @@ separate portal — but these are worth a skim next time you're updating listing
 - **Co-operative Bank of Kenya** — https://co-opbank.co.ke/careers
 - **Craft Silicon** — https://craftsilicon.com/careers
 - **Deloitte East Africa** — https://www.deloitte.com/ke/en/careers
-- **ICTA – ICT Authority of Kenya** — https://icta.go.ke
 - **iHub Nairobi** — https://ihub.co.ke
 - **Liquid Intelligent Technologies** — https://www.liquid.tech/careers
 - **Microsoft Africa Development Centre** — https://careers.microsoft.com
@@ -68,5 +69,4 @@ separate portal — but these are worth a skim next time you're updating listing
 - **Onfon Media** — https://www.onfonmedia.com
 - **Sybrin Kenya** — https://www.sybrin.com/careers
 - **UN-Habitat** — https://careers.un.org
-- **University of Nairobi – ICT Centre** — https://ict.uonbi.ac.ke
 - **Zuku (Wananchi Group)** — https://www.zuku.co.ke/careers
